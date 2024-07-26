@@ -1,12 +1,15 @@
 # Robot Lego Spike Hub
 <code>
+# import lego libraries
 from hub import light_matrix, sound
 import random, runloop, device, motor, time, motor_pair, color_sensor, force_sensor, color, distance_sensor
 from app import music, sound as big_sound
 
+# play pre-built sounds that play thru the laptop NOT the device
 async def play_sounds(name='Dog Bark 1',volume=100,pitch=0,pan=0):
     await big_sound.play('Dog Bark 2')
 
+# play sounds by note that play thru the Spike Hub
 def play_notes(melody):
     try:
         frequency = duration = volume_level = 0# initialize note vars
@@ -23,7 +26,7 @@ def play_notes(melody):
         # sound.beep(440, 500, 100)# Default beep
         return
 
-
+# play a song by instrument and tone via the Hub
 def play_music(song):
     '''
     DRUM_BASS = 2
@@ -81,10 +84,11 @@ def play_music(song):
         sound.beep(440, 500, 100)# Default beep
         return
 
-
+# random True/False generator
 def coin_toss():
     return random.choice([True, False])
 
+# ports to scan
 myports = [0,1,2,3,4,5] # 1 hub TODO: 2 hub chained config
 
 # spike devices
