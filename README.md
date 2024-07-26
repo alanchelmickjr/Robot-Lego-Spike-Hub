@@ -3,6 +3,7 @@ Here you will find a program that will scan all ports on a Spike hub and set the
 All the colors and hub codes are prepared for you including sound codes for instruments and songs.
 
 <img style="max-width: 600px;" src="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt96801dfdfb5b7521/627118b9941a2939d3d00593/45678_prod_packaging_SPIKE_PRIME_Set_01.png?locale=en-us&auto=webp&format=jpeg&width=1600&quality=90&fit=bounds"/>
+
 ```
 # import lego libraries
 from hub import light_matrix, sound
