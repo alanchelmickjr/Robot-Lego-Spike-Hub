@@ -1,5 +1,5 @@
 # Robot Lego Spike Hub
-
+<code>
 from hub import light_matrix, sound
 import random, runloop, device, motor, time, motor_pair, color_sensor, force_sensor, color, distance_sensor
 from app import music, sound as big_sound
@@ -235,3 +235,4 @@ async def main():
     # here is where you put whatever code you want to run the robot
         
 runloop.run(main())
+</code>
