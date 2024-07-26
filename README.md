@@ -2,7 +2,6 @@
 Here you will find a program that will scan all ports on a Spike hub and set them up to do whatever you want. 
 All the colors and hub codes are prepared for you including sound codes for instruments and songs.
 
-<code>
 '''
 # import lego libraries
 from hub import light_matrix, sound
@@ -244,4 +243,3 @@ async def main():
         
 runloop.run(main())
 '''
-</code>
