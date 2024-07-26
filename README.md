@@ -3,6 +3,7 @@ Here you will find a program that will scan all ports on a Spike hub and set the
 All the colors and hub codes are prepared for you including sound codes for instruments and songs.
 
 <code>
+'''
 # import lego libraries
 from hub import light_matrix, sound
 import random, runloop, device, motor, time, motor_pair, color_sensor, force_sensor, color, distance_sensor
@@ -242,4 +243,5 @@ async def main():
     # here is where you put whatever code you want to run the robot
         
 runloop.run(main())
+'''
 </code>
