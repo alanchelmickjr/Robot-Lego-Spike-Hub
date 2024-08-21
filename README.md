@@ -1,6 +1,11 @@
 # Robot Lego Spike Hub
-Here you will find a program that will scan all ports on a Spike hub and set them up to do whatever you want. 
-All the colors and hub codes are prepared for you including sound codes for instruments and songs.
+
+I designed this during Robotics 232 class. Here you will find a program that will scan all ports on a Spike hub 
+and set them up to do whatever you want, that way it doesn't matter where you plug stuff in.
+
+All the colors and hub codes are prepared for you including sound codes for instruments and songs.  
+
+It is a beta template so make it yours and ask questions if you like.
 
 <img style="max-width: 600px;" src="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt96801dfdfb5b7521/627118b9941a2939d3d00593/45678_prod_packaging_SPIKE_PRIME_Set_01.png?locale=en-us&auto=webp&format=jpeg&width=1600&quality=90&fit=bounds"/>
 
